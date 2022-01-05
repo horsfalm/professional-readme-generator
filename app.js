@@ -1,18 +1,6 @@
+const fs = require('fs');
 const inquirer = require('inquirer');
-
-// const fs = require('fs');
-
-// const generateReadme = require('./src/readme-template.js');
-
-// const readmeMD = generateReadme(projTitle, projDesc, projInstall, projUsage, projCont, projTests);
-
-// const [projTitle, projDesc, projInstall, projUsage, projCont, projTests] = readmeDataArgs;
-
-// fs.writeFile('./README.md', generateReadme(readmeMD), err => {
-//     if (err) throw err;
-
-//     console.log('Submission complete! Check out README.md to see the output!');
-// });
+const generateReadme = require('./src/readme-template.js');
 
 const promptUser = () => {
     console.log(`
@@ -29,6 +17,7 @@ const promptUser = () => {
                 if (titleInput) {
                     return true;
                 } else {
+                    console.log('Please enter your project title.');
                     return false;
                 }
             }
@@ -41,6 +30,7 @@ const promptUser = () => {
                 if (descriptionInput) {
                     return true;
                 } else {
+                    console.log('Please enter your project description.');
                     return false;
                 }
             }
@@ -53,6 +43,7 @@ const promptUser = () => {
                 if (installationInput) {
                     return true;
                 } else {
+                    console.log('Please enter your project installation instructions.');
                     return false;
                 }
             }
@@ -65,6 +56,7 @@ const promptUser = () => {
                 if (usageInput) {
                     return true;
                 } else {
+                    console.log('Please enter what your project is used for.');
                     return false;
                 }
             }
@@ -77,6 +69,7 @@ const promptUser = () => {
                 if (contributionInput) {
                     return true;
                 } else {
+                    console.log('Please your project contributors.');
                     return false;
                 }
             }
@@ -89,6 +82,33 @@ const promptUser = () => {
                 if (testsInput) {
                     return true;
                 } else {
+                    console.log('Please enter how your project is tested.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Please enter your GitHub Username.',
+            validate: githubInput => {
+                if (githubInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your GitHub Username.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please enter your email address.',
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email address.');
                     return false;
                 }
             }
@@ -96,4 +116,12 @@ const promptUser = () => {
     ]);
 };
 
-promptUser().then(answers => console.log(answers));
+promptUser().then(answers => {
+    const readmeMD = generateReadme(answers);
+    
+    fs.writeFile('./README.md', readmeMD, err => {
+     if (err) throw err;
+
+     console.log('Submission complete! Check out README.md to see the output!');
+    });
+});
