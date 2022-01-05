@@ -7,25 +7,30 @@ module.exports = templateData => {
 
 ## Table of Contents
 1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contribution](#contribution)
+5. [Tests](#tests)
+6. [Questions](#questions)
 
 ### Project Description
-${templateData.description} <a name="description"><a>
+${templateData.description}<a name="description"><a>
 
 ### Installation
-${templateData.installation}
+${templateData.installation}<a name="installation"><a>
 
 ### Usage
-${templateData.usage}
+${templateData.usage}<a name="usage"><a>
 
 ### Contribution
-${templateData.contribution}
+${templateData.contribution}<a name="contribution"><a>
 
 ### Tests
-${templateData.tests}
+${templateData.tests}<a name="tests"><a>
 
 ### License
 
-### Questions
+### Questions<a name="questions"><a>
 For questions, please visit the project [repository](https://github.com/${templateData.github}/${templateData.repository}) and / or email the project author [here](mailto:${templateData.email}).
      `;
  };
