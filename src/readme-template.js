@@ -3,8 +3,7 @@
 module.exports = templateData => {
     console.log(templateData);
      return `
-# **Project Title** 
-${templateData.title}
+# **${templateData.title}**
 
 ## Table of Contents
 
@@ -26,6 +25,6 @@ ${templateData.tests}
 ### License
 
 ### Questions
-For questions, please visit [${templateData.github}] and / or [email the project author](mailto:${templateData.email}).
+For questions, please visit the project [repository](https://github.com/${templateData.github}/${templateData.repository}) and / or email the project author[here](mailto:${templateData.email}).
      `;
  };

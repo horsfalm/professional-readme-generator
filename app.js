@@ -102,6 +102,19 @@ const promptUser = () => {
         },
         {
             type: 'input',
+            name: 'repository',
+            message: 'Please enter the precise name of the GitHub repository for your project.',
+            validate: repositoryInput => {
+                if (repositoryInput) {
+                    return true;
+                } else {
+                    console.log('Please enter the relevant GitHub repository.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'email',
             message: 'Please enter your email address.',
             validate: emailInput => {

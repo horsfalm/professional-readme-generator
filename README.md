@@ -1,6 +1,5 @@
 
-# **Project Title** 
-Workforce Scheduling App
+# **Workforce Scheduler**
 
 ## Table of Contents
 
@@ -22,5 +21,5 @@ Jest
 ### License
 
 ### Questions
-For questions, please visit [horsfalm] and / or [email the project author](mailto:horsfalm@gmail.com).
+For questions, please visit the project [repository](https://github.com/horsfalm/https://github.com/horsfalm/professional-readme-generator/tree/develop) and / or email the project author[here](mailto:horsfalm@gmail.com).
      
