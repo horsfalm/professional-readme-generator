@@ -6,9 +6,10 @@ module.exports = templateData => {
 # **${templateData.title}**
 
 ## Table of Contents
+1. [Description](#description)
 
 ### Project Description
-${templateData.description}
+${templateData.description} <a name="description"><a>
 
 ### Installation
 ${templateData.installation}
@@ -25,6 +26,6 @@ ${templateData.tests}
 ### License
 
 ### Questions
-For questions, please visit the project [repository](https://github.com/${templateData.github}/${templateData.repository}) and / or email the project author[here](mailto:${templateData.email}).
+For questions, please visit the project [repository](https://github.com/${templateData.github}/${templateData.repository}) and / or email the project author [here](mailto:${templateData.email}).
      `;
  };
