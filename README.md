@@ -1,5 +1,7 @@
 
-# **Workforce Scheduler**
+# **lkj**
+
+[![MIT](<a href="https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT"></a>
 
 ## Table of Contents
 1. [Description](#description)
@@ -7,24 +9,26 @@
 3. [Usage](#usage)
 4. [Contribution](#contribution)
 5. [Tests](#tests)
-6. [Questions](#questions)
+6. [License](#license) 
+7. [Questions](#questions)
 
 ### Project Description
-Integrated tool for managing the schedules of employees<a name="description"><a>
+lkj<a name="description"><a>
 
 ### Installation
-Navigate to the deployed application and enter the required information.<a name="installation"><a>
+lkj<a name="installation"><a>
 
 ### Usage
-This project is intended to create a tool that supplants the crude Google Sheets method of scheduling which is currently used at a trade services company which the author currently owns and operates. It can be used for any small to medium sized workforce but will work particularly well in the trades sector.<a name="usage"><a>
+lkj<a name="usage"><a>
 
 ### Contribution
-Mark Horsfall<a name="contribution"><a>
+lkj<a name="contribution"><a>
 
 ### Tests
-Jest<a name="tests"><a>
+lkj<a name="tests"><a>
 
 ### License
+MIT<a name="license"><a>
 
 ### Questions<a name="questions"><a>
 For questions, please visit the project [repository](https://github.com/horsfalm/professional-readme-generator) and / or email the project author [here](mailto:horsfalm@gmail.com).

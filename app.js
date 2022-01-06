@@ -3,11 +3,6 @@ const inquirer = require('inquirer');
 const generateReadme = require('./src/readme-template.js');
 
 const promptUser = () => {
-    console.log(`
-    ====================
-    PLACEHOLDER
-    ====================
-    `)
     return inquirer.prompt([
         {
             type: 'input',
@@ -86,6 +81,12 @@ const promptUser = () => {
                     return false;
                 }
             }
+        },
+        {
+            type: 'checkbox',
+            name: 'license',
+            message: 'Please select how your project is licensed.',
+            choices: ['MIT']
         },
         {
             type: 'input',
