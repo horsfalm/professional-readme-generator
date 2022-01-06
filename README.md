@@ -13,19 +13,19 @@
 7. [Questions](#questions)
 
 ### Project Description
-Current and forecasted weather conditions for a list of cities chosen by the user.<a name="description"><a>
+The Weather Dashboard application is a tool for monitoring current and forecasted weather conditions.<a name="description"><a>
 
 ### Installation
-Navigate to deployed application and enter the desired cities (up to 10 will be saved in local storage).<a name="installation"><a>
+The user should navigate to the deployed application and follow the instructions.<a name="installation"><a>
 
 ### Usage
-Tracking a bespoke meterological set.<a name="usage"><a>
+The project is used for monitoring a bespoke meterological set for up to 10 locations.<a name="usage"><a>
 
 ### Contribution
 Mark Horsfall<a name="contribution"><a>
 
 ### Tests
-Not tested.<a name="tests"><a>
+Not tested<a name="tests"><a>
 
 ### License
 MIT<a name="license"><a> is the license covering this project. For information, please refer to the [documentation](https://opensource.org/licenses).
