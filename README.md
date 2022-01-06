@@ -32,4 +32,3 @@ MIT<a name="license"><a> is the license covering this project. For information, 
 
 ### Questions<a name="questions"><a>
 For questions, please visit the project [repository](https://github.com/horsfalm/professional-readme-generator) and / or email the project author [here](mailto:horsfalm@gmail.com).
-     
