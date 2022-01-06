@@ -1,7 +1,7 @@
 
-# **Homeboy**
+# **Weather Dashboard**
 
-[![MIT](<a href="https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT"></a>
+![weather-dashboard](https://img.shields.io/github/languages/top/horsfalm/weather-dashboard)
 
 ## Table of Contents
 1. [Description](#description)
@@ -13,23 +13,23 @@
 7. [Questions](#questions)
 
 ### Project Description
-LKJLKJ<a name="description"><a>
+Current and forecasted weather conditions for a list of cities.<a name="description"><a>
 
 ### Installation
-LKJLKJ<a name="installation"><a>
+Go to deployed application and enter chosen cit(ies).<a name="installation"><a>
 
 ### Usage
-LKJLKJ<a name="usage"><a>
+Tracking a bespoke meterological set.<a name="usage"><a>
 
 ### Contribution
-LKJLKJ<a name="contribution"><a>
+Not currently tested.<a name="contribution"><a>
 
 ### Tests
-LKJLKJ<a name="tests"><a>
+horsfalm<a name="tests"><a>
 
 ### License
 MIT<a name="license"><a>
 
 ### Questions<a name="questions"><a>
-For questions, please visit the project [repository](https://github.com/horsfalm/professional-readme-generator) and / or email the project author [here](mailto:horsfalm@gmail.com).
+For questions, please visit the project [repository](https://github.com/horsfalm/weather-dashboard) and / or email the project author [here](mailto:horsfalm@gmail.com).
      

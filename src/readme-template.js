@@ -5,7 +5,7 @@ module.exports = templateData => {
      return `
 # **${templateData.title}**
 
-[![${templateData.license}](<a href="https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT"></a>
+![${templateData.repository}](https://img.shields.io/github/languages/top/${templateData.github}/${templateData.repository})
 
 ## Table of Contents
 1. [Description](#description)
