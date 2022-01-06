@@ -83,10 +83,11 @@ const promptUser = () => {
             }
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'Please select how your project is licensed.',
-            choices: ['MIT']
+            choices: ['Apache', 'Boost', 'BSD', 'CCO', 'Eclipse', 'GNU', 'MIT', 'Mozilla', 'The Unlicense'],
+            default: 'MIT'
         },
         {
             type: 'input',
